@@ -84,7 +84,7 @@ const Modal = ({setClose}) => {
                     <input required type="date" id="dob" value={date} onChange={(e) => setDate(e.target.value)}></input>
                     <br/>
                     <div>
-                        <button className="Submit" onClick={(e) => {handleSubmit(e)}}>Submit</button>
+                        <button className="submit-button" onClick={(e) => {handleSubmit(e)}}>Submit</button>
                     </div>
                     
                 </form>
